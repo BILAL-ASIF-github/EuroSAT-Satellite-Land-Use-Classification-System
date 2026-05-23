@@ -1,0 +1,50 @@
+# Dataset (too large for git — use Git LFS or download script)
+data/
+*.zip
+*.tar.gz
+
+# Model weights (use Git LFS if you want to track)
+models/*.pth
+models/*.pt
+# Uncomment below to track with Git LFS instead:
+# !models/eurosat_cnn.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Outputs (optional — remove if you want to track figures)
+# figures/
